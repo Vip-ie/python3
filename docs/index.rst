@@ -10,9 +10,6 @@ Pytond_Docs
    :maxdepth: 2
    :caption: Contents:
 
-shuju
-
-
 
 Indices and tables
 ++++++++++++++++++
