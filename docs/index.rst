@@ -1,8 +1,7 @@
 
 EvaEngine - a php development engine
 Contents:
-python3_Docs
-============
+
 .. toctree::
    :maxdepth: 1
 
