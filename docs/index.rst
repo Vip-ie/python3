@@ -6,9 +6,3 @@ Contents:
    :maxdepth: 1
 
    helloworld
-
-
-
-Indices and tables
-:ref:`genindex`
-:ref:`search`
