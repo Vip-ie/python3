@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Pytond_Docs 
-===================================
+===========
 
 .. toctree::
    :maxdepth: 2
@@ -12,7 +12,7 @@ Pytond_Docs
 
 
 Indices and tables
-==================
+++++++++++++++++++
 
 * :ref:`genindex`
 * :ref:`modindex`
