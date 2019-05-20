@@ -6,7 +6,7 @@ Contents:
    :maxdepth: 1
 
    helloworld
-   en/quickstart
+
 
 
 Indices and tables
