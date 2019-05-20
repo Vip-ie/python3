@@ -14,10 +14,9 @@ Pytond_Docs
 Indices and tables
 ++++++++++++++++++
 
-* :ref:`genindex`
 
 Python高级
-++++++++++++++++++
+------------------
 
-* :ref:`genindex`
+
  shuju
