@@ -1,13 +1,3 @@
-docs_dir: /home/docs/checkouts/readthedocs.org/user_builds/python3-docs/checkouts/latest/docs
-extra_css:
-- https://assets.readthedocs.org/static/css/badge_only.css
-- https://assets.readthedocs.org/static/css/readthedocs-doc-embed.css
-extra_javascript:
-- readthedocs-data.js
-- https://assets.readthedocs.org/static/core/js/readthedocs-doc-embed.js
-- https://assets.readthedocs.org/static/javascript/readthedocs-analytics.js
-google_analytics: null
-
 site_name: Python3_Docs_Note
 pages:
     - Python基础: 
