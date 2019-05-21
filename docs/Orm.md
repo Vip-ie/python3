@@ -46,16 +46,20 @@ DATABASES = {
 import pymysql
 pymysql.install_as_MySQLdb()
 ```
-3.**使用Django中的模型**
+3.**使用Django中的数据模型**
 
 在app下面的models.py中创建django模型类
 ```
-from django.db import models
+from django.db import models #引入Django的数据模型
 
 class User(models.Model):
         id = models.AutoField(primary_key=True) #主键可以省略，django会自动给我们加上
-        name =models.CharField(max_length=30)
-        age = models.IntegerField()
+        name =models.CharField(max_length=30) #字符长度，默认必须写长度
+        age = models.IntegerField() #IntegerFiled 整型
+
+        #格式化输出
+        def __str__(self):
+        return 'Department<id=%s,name=%s,age=%s>'%(self.id,self.name，self.age)
 ```
 4.**将模型类映射到数据库**
 

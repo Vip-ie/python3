@@ -207,3 +207,7 @@ def add_user(request):
     print(s3.courses.clear()) # 清空所有报的课程
     return HttpResponse('数据删除成功')
 ```
+# on_delete 级联删除
+```
+
+```
