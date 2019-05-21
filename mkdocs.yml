@@ -11,7 +11,9 @@ google_analytics: null
 site_name: Python3_Docs_Note
 pages:
     - Home: index.md
-    - Python: python.md
+    - Python: 
+        -  'Python_datatype'：'datatype.md' 
+    python.md
     - Django: django.md
     - Tornado: tornado.md
     - User Guide:
