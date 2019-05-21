@@ -109,51 +109,51 @@ from .models import User
 #增加数据
 def add_user(request):
     #第一种方法
-    # taka = User(name='zlk', age = 18)
-    # taka.save()
+    taka = User(name='zlk', age = 18)
+    taka.save()
     #第二种方法
-    # budong = User()
-    # budong.name = 'budong'
-    # budong.age = 18
-    # budong.save()
+    budong = User()
+    budong.name = 'budong'
+    budong.age = 18
+    budong.save()
     #第三种方法
-    # User.objects.create(name='leva',age=18)
+    User.objects.create(name='leva',age=18)
     #第四种方法 添加数据会判断数据是否存在，若存在不添加，不存在就添加
-    #User.objects.get_or_create(name='vip',age=19)
+    User.objects.get_or_create(name='vip',age=19)
 
     return HttpResponse('数据添加成功')
 
 #查询数据
 def search_user(request):
     #查询所有记录
-    # rs =User.objects.all()
+    rs =User.objects.all()
     #获取第一条数据
-    # rs =User.objects.first()
+    rs =User.objects.first()
     #获取最后一条数据
-    # rs = User.objects.last()
+    rs = User.objects.last()
     #根据参数提供的条件过滤后的记录
-    # rs = User.objects.filter(name='zlk',age=18)
+    rs = User.objects.filter(name='zlk',age=18)
     #注意：filter（**kwargs）方法：根据参数提供的提取条件，获取一个过滤后的QuerySet。
-    # print(rs[2]) #一个模型的实例，数据表的一条数据
+    print(rs[2]) #一个模型的实例，数据表的一条数据
     #查询某一个记录，返回一个对象
-    #rs = User.objects.get(id=3) #一个实例对象
+    rs = User.objects.get(id=3) #一个实例对象
     return HttpResponse('查询添加成功')
 
 #更新数据
 def update_user(request):
     #第一种方法
-    # rs = User.objects.get(id=3)
-    # rs.name = 'ali'
-    # rs.save()
-    # print(rs)
+    rs = User.objects.get(id=3)
+    rs.name = 'ali'
+    rs.save()
+    print(rs)
     #第二种更新
-    # User.objects.filter(name='ali').update(name='zlkvip')
-    # User.objects.all().update(city='beijing')
+    User.objects.filter(name='ali').update(name='zlkvip')
+    User.objects.all().update(city='beijing')
 
     return HttpResponse('数据更新成功')
 #删除数据
 def delete_user(request):
-    #User.objects.get(id=4).delete()
+    User.objects.get(id=4).delete()
     #注意：get返回的对象具有唯一性质，如果符合条件的对象有多个，则get报错！
     return HttpResponse('数据删除成功')
 ```
