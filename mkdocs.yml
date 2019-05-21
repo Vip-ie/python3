@@ -4,5 +4,4 @@ nav:
     - Python: python.md
     - django.md
     - tornado.md
-    - About: about.md
 theme: readthedocs
