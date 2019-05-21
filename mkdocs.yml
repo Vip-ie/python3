@@ -1,7 +1,7 @@
 site_name: Python3_Docs_Note
 pages:
     - Python基础: 
-        - 'Python data type'：'datatype.md' 
+        - 'Python data type':'datatype.md' 
         
     - Python中级:
         - 'Mysql':'Mysql.md'
