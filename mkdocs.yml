@@ -1,0 +1,8 @@
+site_name: MkLorum
+nav:
+    - Home: index.md
+    - Python: python.md
+    - django.md
+    - tornado.md
+    - About: about.md
+theme: readthedocs
