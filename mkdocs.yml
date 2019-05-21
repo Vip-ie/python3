@@ -12,12 +12,5 @@ pages:
     - Django: django.md
     
     - Tornado: tornado.md
-    
-    - User Guide:
-        - 'Writing your docs': 'writing-your-docs.md'
-        
-    - About:
-        - 'License': 'license.md'
-    
 theme:
     name: readthedocs
