@@ -14,7 +14,7 @@ pages:
     - Python: python.md
     - Django: django.md
     - Tornado: tornado.md
-    - getting:
-        - getting-started.md
+    - getting: 
+        - getting-started:getting-started.md
 theme:
     name: readthedocs
