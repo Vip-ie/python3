@@ -1,18 +1,18 @@
-# Django ORM
+# ORM
 * Django的ORM简介
 * 数据库连接配置
 * 模型的创建与映射
 * 数据的增删改查
 
 -------------------------------------------------
-# Django的ORM系统的分析
+# ORM系统的分析
 ![Screenshot](img/Django_Orm.png)
 
 1. ORM概念:对象关系映射（Object Relational Mapping,简称ORM）
 2. ORM的优势:不用直接编写SQL代码，只需像操作对象一样从数据库操作数据
 
 -------------------------------------------------
-# django模型映射关系
+# 模型映射关系
 ![Screenshot](img/Djang_Orm01.png)
 
 1. 模型类必须都写在app下的models.py文件中。
