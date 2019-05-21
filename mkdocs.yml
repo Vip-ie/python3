@@ -7,7 +7,7 @@ pages:
         - '元组': 'Tuple.md'
 
     - Python中级:
-        - 'Mysql':'Mysql.md'
+        - 'Mysql': 'Mysql.md'
         
     - Django: django.md
     
