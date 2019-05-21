@@ -26,5 +26,6 @@ pages:
 
     - Sublime Text3:
         - '自动保存配置': 'Autosave.md'
+        - 'Package Control': 'PackageControl.md'
 theme:
     name: readthedocs
