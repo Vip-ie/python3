@@ -2,9 +2,9 @@ site_name: Python3_Docs_Note
 pages:
     - Python基础: 
         - '数字': 'Numbers.md'
-        - '字符串':'Strings.md'
-        - '列表':'Lists.md'
-        
+        - '字符串': 'Strings.md'
+        - '列表': 'Lists.md'
+
     - Python中级:
         - 'Mysql':'Mysql.md'
         
