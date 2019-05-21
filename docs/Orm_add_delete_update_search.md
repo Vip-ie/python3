@@ -1,3 +1,4 @@
+# 创建数据模型
 **创建Django数据模型models.py文件**
 ```
 from django.db import models
@@ -38,15 +39,6 @@ class Stu_detail(models.Model):
     def __str__(self):
         return 'Stu_detail<s_id=%s,age=%s,gender=%s,city=%s>'%(self.student_id,self.age,self.gender,self.city)
 ```
-**创建views.py视图文件**
-```
-from django.http import HttpResponse
-from .models import Department,Student,Course,Stu_detail
-
-def add_user(request):
-
-    return HttpResponse('数据添加成功')
-```
 # 插入数据
 ```
 from django.http import HttpResponse
@@ -78,6 +70,15 @@ def add_user(request):
     return HttpResponse('数据添加成功')
 ```
 # 一对多查询
+**创建views.py视图文件**
+```
+from django.http import HttpResponse
+from .models import Department,Student,Course,Stu_detail
+
+def add_user(request):
+
+    return HttpResponse('数据添加成功')
+```
 # 一对一查询
 # 一对多添加数据
 # 多对多添加数据

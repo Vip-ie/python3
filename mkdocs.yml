@@ -20,7 +20,7 @@ pages:
         
     - Django: 
         - 'Templates': 'Templates.md'
-        - 'Orm': 'Orm.md'
+        - 'Orm基础': 'Orm.md'
         - 'Orm增删改查': 'Orm_add_delete_update_search.md'
         - 'Orm聚合查询': 'Orm_Aggregate_query.md'
     
