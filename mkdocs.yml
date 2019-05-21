@@ -11,13 +11,17 @@ google_analytics: null
 site_name: Python3_Docs_Note
 pages:
     - Home: index.md
+    
     - Python: 
         - 'Python data type'：'datatype.md' 
     - Django: django.md
+    
     - Tornado: tornado.md
+    
     - User Guide:
         - 'Writing your docs': 'writing-your-docs.md'
         - 'Styling your docs': 'styling-your-docs.md'
+        
     - About:
         - 'License': 'license.md'
         - 'Release Notes': 'release-notes.md'
