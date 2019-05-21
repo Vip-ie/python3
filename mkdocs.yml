@@ -14,4 +14,5 @@ pages:
     - Python: python.md
     - Django: django.md
     - Tornado: tornado.md
-theme: readthedocs
+theme:
+    name: readthedocs
