@@ -7,10 +7,10 @@ extra_javascript:
 - https://assets.readthedocs.org/static/core/js/readthedocs-doc-embed.js
 - https://assets.readthedocs.org/static/javascript/readthedocs-analytics.js
 google_analytics: null
+site_name: MkLorum
 nav:
 - Home: index.md
 - Python: python.md
 - Django: django.md
 - Tornado: tornado.md
-site_name: MkLorum
 theme: readthedocs
