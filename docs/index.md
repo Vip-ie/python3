@@ -19,6 +19,12 @@ Content Cell | Content Cell  | Content Cell
 [mkdocs.org](https://mkdocs.org)
 
 -------------------------------------------
+### 插入图片
+要在文档源文件中包含图像，只需使用任何常规的Markdown图像语法
+
+![Screenshot](img/mkdocs.jpg)
+
+-------------------------------------------
 ### 插入多行代码方法
 在三个反引号中间插入代码 ``````
 
