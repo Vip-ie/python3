@@ -1,26 +1,26 @@
-# ORM
+# 一 ORM
 * Django的ORM简介
 * 数据库连接配置
 * 模型的创建与映射
 * 数据的增删改查
 
 -------------------------------------------------
-# ORM系统的分析
+# 二 ORM系统分析
 ![Screenshot](img/Django_Orm.png)
 
-1. ORM概念:对象关系映射（Object Relational Mapping,简称ORM）
-2. ORM的优势:不用直接编写SQL代码，只需像操作对象一样从数据库操作数据
+* ORM概念:对象关系映射（Object Relational Mapping,简称ORM）
+* ORM的优势:不用直接编写SQL代码，只需像操作对象一样从数据库操作数据
 
 -------------------------------------------------
-# 模型映射关系
+# 三 模型映射关系
 ![Screenshot](img/Djang_Orm01.png)
 
-1. 模型类必须都写在app下的models.py文件中。
-2. 模型如果需要映射到数据库,所在的app必须被安装。
-3. 一个数据表对应一个模型类,表中的字段,对应模型中的类属性。
+* 模型类必须都写在app下的models.py文件中。
+* 模型如果需要映射到数据库,所在的app必须被安装。
+* 一个数据表对应一个模型类,表中的字段,对应模型中的类属性。
 
 -------------------------------------------------
-# 数据库的配置
+# 四 数据库的配置
 在settings.py中配置DATABASES
 ```
 DATABASES = {
@@ -34,17 +34,20 @@ DATABASES = {
         }
     }
 ```
-* pymsql数据库连接器的配置
+1.**数据库驱动安装**
 
->在虚拟环境中安装pymysql`pip install pymysql`
+* 在虚拟环境中安装pymysql`pip install pymysql`
+* 在虚拟环境中安装Pillow `pip install Pillow`
 
-* 设置连接器为pymysql
+2.**设置连接器为pymysql**
+
 在主目录下的的__init__.py文件添加下面两句
 ```
 import pymysql
 pymysql.install_as_MySQLdb()
 ```
-* 使用Django中的模型
+3.**使用Django中的模型**
+
 在app下面的models.py中创建django模型类
 ```
 from django.db import models
@@ -54,31 +57,24 @@ class User(models.Model):
         name =models.CharField(max_length=30)
         age = models.IntegerField()
 ```
-将模型类映射到数据库
-* 首先执行下命令，要创建映射文件
+4.**将模型类映射到数据库**
 
-`python manage.py makemigrations`
+1. 执行`python manage.py makemigrations`该命令，创建映射数据库文件。
 
-* 执行以下命令，将映射文件中的映射数据提交到数据库中
+2. 执行`python manage.py migrate <appname>`该命令，提交到数据库。
 
-```
-可以跟app目录执行
-python manage.py migrate
-```
 
-# Django2.2版本以上配置需要安装以下包
 
-Pillow 必须安装`pip install Pillow`
-
-### 报以下错误处理方法
+# 五 报以下错误处理方法
 ```
 django2.2/mysql ImproperlyConfigured: mysqlclient 1.3.13 or newer is required; you have 0.9.3
 ```
 
-解决方法
-Django连接MySQL时默认使用MySQLdb驱动，但MySQLdb不支持Python3，因此这里将MySQL驱动设置为pymysql，使用 pip install pymysql进行安装，然后在工程文件__init__.py添加以下代码即可。
+1.**解决方法**
 
-仍使用django 2.2版本
+Django连接MySQL时默认使用MySQLdb驱动，但MySQLdb不支持Python3，因此这里将MySQL驱动设置为pymysql.
+
+2.**仍使用django 2.2版本**
 ```
 #找到Python环境下 django包，并进入到backends下的mysql文件夹
 cd /opt/anaconda3/envs/envAGC_Mini/lib/python3.6/site-packages/django/db/backends/mysql
@@ -92,7 +88,7 @@ raise ImproperlyConfigured("mysqlclient 1.3.3 or newer is required; you have %s"
 ```
 AttributeError: ‘str’ object has no attribute ‘decode’
 ```
-解决办法
+3.**解决办法**
 ```
 #找到operations.py文件（46行），将decode改为encode
 #linux vim 查找快捷键：？decode
@@ -104,7 +100,7 @@ if query is not None:
     query = query.encode(errors='replace')
     return query
 ```
-# 增删改查
+# 六 增删改查
 在views.py文件内执行增删改查
 ```
 from django.http import HttpResponse
