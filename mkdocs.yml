@@ -12,8 +12,12 @@ site_name: Python3_Docs_Note
 pages:
     - Home: index.md
     
-    - Python: 
+    - Python基础: 
         - 'Python data type'：'datatype.md' 
+        
+    - Python中级:
+        - 'Mysql':'Mysql.md'
+        
     - Django: django.md
     
     - Tornado: tornado.md
