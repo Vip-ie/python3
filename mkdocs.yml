@@ -23,5 +23,8 @@ pages:
         - 'Orm': 'Orm.md'
     
     - Tornado: Tornado.md
+
+    - Sublime Text3:
+        - '自动保存配置': 'Autosave.md'
 theme:
     name: readthedocs
