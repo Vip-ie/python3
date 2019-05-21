@@ -4,6 +4,7 @@ pages:
         - '数字': 'Numbers.md'
         - '字符串': 'Strings.md'
         - '列表': 'Lists.md'
+        - '元组': 'Tuple.md'
 
     - Python中级:
         - 'Mysql':'Mysql.md'
