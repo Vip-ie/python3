@@ -17,7 +17,8 @@ pages:
         - 'Mysql': 'Mysql.md'
         
         
-    - Django: Django.md
+    - Django: 
+        - 'Django_Orm': 'Django_Orm.md'
     
     - Tornado: Tornado.md
 theme:
