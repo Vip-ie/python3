@@ -10,8 +10,8 @@ pages:
         - 'Mysql': 'Mysql.md'
         
         
-    - Django: django.md
+    - Django: Django.md
     
-    - Tornado: tornado.md
+    - Tornado: Tornado.md
 theme:
     name: readthedocs
