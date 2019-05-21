@@ -18,6 +18,7 @@ pages:
         
         
     - Django: 
+        - 'Django_Templates': 'Django_Templates.md'
         - 'Django_Orm': 'Django_Orm.md'
     
     - Tornado: Tornado.md
