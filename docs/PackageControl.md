@@ -1,4 +1,4 @@
-# PackageControl安装
+# SublimeText3 for MacOSX PackageControl安装
 
 去github下载PackageControl安装包
 点击[PackageControl](https://github.com/wbond/packagecontrol.io)下载
