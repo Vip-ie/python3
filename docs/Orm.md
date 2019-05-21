@@ -34,16 +34,17 @@ DATABASES = {
         }
     }
 ```
-# pymsql数据库连接器的配置
-在虚拟环境中安装pymysql`pip install pymysql`
+* pymsql数据库连接器的配置
 
-### 设置连接器为pymysql
+>在虚拟环境中安装pymysql`pip install pymysql`
+
+* 设置连接器为pymysql
 在主目录下的的__init__.py文件添加下面两句
 ```
 import pymysql
 pymysql.install_as_MySQLdb()
 ```
-# 使用Django中的模型
+* 使用Django中的模型
 在app下面的models.py中创建django模型类
 ```
 from django.db import models
@@ -53,7 +54,7 @@ class User(models.Model):
         name =models.CharField(max_length=30)
         age = models.IntegerField()
 ```
-# 将模型类映射到数据库
+将模型类映射到数据库
 * 首先执行下命令，要创建映射文件
 
 `python manage.py makemigrations`
@@ -74,10 +75,10 @@ Pillow 必须安装`pip install Pillow`
 django2.2/mysql ImproperlyConfigured: mysqlclient 1.3.13 or newer is required; you have 0.9.3
 ```
 
-# 解决方法
+解决方法
 Django连接MySQL时默认使用MySQLdb驱动，但MySQLdb不支持Python3，因此这里将MySQL驱动设置为pymysql，使用 pip install pymysql进行安装，然后在工程文件__init__.py添加以下代码即可。
 
-# 仍使用django 2.2版本
+仍使用django 2.2版本
 ```
 #找到Python环境下 django包，并进入到backends下的mysql文件夹
 cd /opt/anaconda3/envs/envAGC_Mini/lib/python3.6/site-packages/django/db/backends/mysql
@@ -91,7 +92,7 @@ raise ImproperlyConfigured("mysqlclient 1.3.3 or newer is required; you have %s"
 ```
 AttributeError: ‘str’ object has no attribute ‘decode’
 ```
-# 解决办法
+解决办法
 ```
 #找到operations.py文件（46行），将decode改为encode
 #linux vim 查找快捷键：？decode
