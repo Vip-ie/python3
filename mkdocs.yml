@@ -5,7 +5,14 @@ pages:
         - '2. 字符串': 'Strings.md'
         - '3. 列表': 'Lists.md'
         - '4. 元组': 'Tuple.md'
-
+        - '5. 集合': 'Set.md'
+        - '6. 字典': 'Dict.md'
+        - '7. 逻辑运算符': 'Logical.md'
+        - '8. 函数': 'Function.md'
+        - '9. 类': 'Class.md'
+        - '10. 文件': 'File.md'
+        - '11. 异常': 'Abnormal.md'
+        - '12. 正则': 'Regular.md'
     - Python中级:
         - 'Mysql': 'Mysql.md'
         
