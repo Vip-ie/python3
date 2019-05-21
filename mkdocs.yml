@@ -12,7 +12,7 @@ site_name: Python3_Docs_Note
 pages:
     - Home: index.md
     - Python: 
-        - 'Python_datatype'：'datatype.md' 
+        - 'Python data type'：'datatype.md' 
     - Django: django.md
     - Tornado: tornado.md
     - User Guide:
