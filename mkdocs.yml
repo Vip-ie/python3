@@ -10,8 +10,6 @@ google_analytics: null
 
 site_name: Python3_Docs_Note
 pages:
-    - Home: index.md
-    
     - Python基础: 
         - 'Python data type'：'datatype.md' 
         
