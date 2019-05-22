@@ -1,4 +1,4 @@
-# 高亮语法代码提示
+# 代码自动提示/补全插件
 去github下载[SublimeCodeIntel](https://github.com/SublimeCodeIntel/SublimeCodeIntel)文件包，解压缩把名字修改为`SublimeCodeIntel`拷贝到`Packages`目录下即可。
 
 进入`Packages`目录方法如下图：

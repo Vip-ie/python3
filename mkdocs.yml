@@ -30,7 +30,7 @@ pages:
         - '自动保存配置': 'Autosave.md'
         - 'Package Control': 'PackageControl.md'
         - '手动安装Predawn主题': 'Predawn.md'
-        - 'SublimeCodeIntel高亮语法代码提醒': 'SublimeCodeIntel.md'
+        - 'SublimeCodeIntel代码自动提示/补全插件': 'SublimeCodeIntel.md'
         - 'SublimeText3 Command+b运行python配置': 'command+b.md'
 
         
