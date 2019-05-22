@@ -8,7 +8,7 @@
 
 拷贝PackageControl文件到指定目录
 
-![Screenshot](img/PackageControl1.jpg)
+![Screenshot](img/PackageControl11.jpg)
 
 查看PackageControl是否安装成功
 
