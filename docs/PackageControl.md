@@ -10,8 +10,6 @@
 
 ![Screenshot](img/PackageControl1.jpg)
 
-
-
 查看PackageControl是否安装成功
 
 ![Screenshot](img/packagecontrol2.jpg)
