@@ -27,8 +27,9 @@ pages:
     - Tornado: Tornado.md
 
     - Sublime Text3:
-        - '自动保存配置': 'Autosave.md'
         - 'Package Control': 'PackageControl.md'
+        - '解决Sublime的PackageControl被墙': 'SublimeText3PackageControl.md'
+        - '自动保存配置': 'Autosave.md'
         - '手动安装Predawn主题': 'Predawn.md'
         - 'SublimeCodeIntel代码自动提示/补全插件': 'SublimeCodeIntel.md'
         - 'SublimeText3 Command+b运行python配置': 'command+b.md'
