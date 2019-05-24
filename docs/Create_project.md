@@ -13,9 +13,21 @@
 ![Screenshot](img/CreateDjangoProject1.jpg)
 ![Screenshot](img/CreateDjangoProject2.jpg)
 ![Screenshot](img/CreateDjangoProject3.jpg)
+![Screenshot](img/CreateDjangoProject4.jpg)
+![Screenshot](img/CreateDjangoProject5.jpg)
+![Screenshot](img/CreateDjangoProject6.jpg)
+![Screenshot](img/CreateDjangoProject7.jpg)
+![Screenshot](img/CreateDjangoProject8.jpg)
+![Screenshot](img/CreateDjangoProject9.jpg)
+![Screenshot](img/CreateDjangoProject10.jpg)
+![Screenshot](img/CreateDjangoProject11.jpg)
 -----------------------------------------------------------------------
 **PyCharm创建Django项目方法**
 
 ![Screenshot](img/PyCharmCreateProject1.jpg)
 ![Screenshot](img/PyCharmCreateProject2.jpg)
+
+PyCharm创建app
+
 ![Screenshot](img/PyCharmCreateProject3.jpg)
+![Screenshot](img/PyCharmCreateProject4.jpg)
