@@ -15,7 +15,8 @@ class Department(models.Model):
 class Student(models.Model):
     s_id = models.AutoField(primary_key=True)
     s_name = models.CharField(max_length=30)
-    department = models.ForeignKey('Department',on_delete=models.CASCADE,null = True,related_name= 'students')
+    # department = models.ForeignKey('Department', on_delete=models.CASCADE, related_name= 'students') #级联删除时，主表删除信息同时也删除关联表信息
+    department = models.ForeignKey('Department', on_delete=models.SET_NULL,null = True,related_name= 'students') #级联删除主表信息，关联信息不删除
 
     def __str__(self):
         return 'Student<s_id=%s,s_name=%s,department_id=%s>'%(self.s_id, self.s_name, self.department_id)
@@ -208,6 +209,16 @@ def add_user(request):
     return HttpResponse('数据删除成功')
 ```
 # on_delete 级联删除
+**on_delete=models.CASCADE**在django模型内设置此属性
+
+删除主表信息的同时也会删除关联信息表信息。
+```
+Department.objects.get(d_id=1).delete()
 ```
 
+**on_delete=models.SET_NULL, null=True**在django模型内设置此属性
+
+删除主表信息，允许子表信息值为空，不删除子表信息。
+```
+Department.objects.get(d_id=2).delete()
 ```
