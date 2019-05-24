@@ -6,7 +6,10 @@
 * 在DjangoProject项目环境安装Django方法：`pip install django`
 * 建立一个存放Django项目目录：`mkdir DjangoProject`使用cd进入创建项目目录
 * 在存放项目文件执行新建项目命令：`django-admin startproject hello_django`
-* PyCharm导入新建Django项目
+* 使用命令创建app方法：`django-admin startapp appname`
+* 进入项目存放目录使用命令运行Django` python manage.py runserver 0.0.0.0:8000`
+-----------------------------------------------------------------------
+**PyCharm导入新建Django项目**
 ![Screenshot](img/CreateDjangoProject1.jpg)
 ![Screenshot](img/CreateDjangoProject2.jpg)
 ![Screenshot](img/CreateDjangoProject3.jpg)
