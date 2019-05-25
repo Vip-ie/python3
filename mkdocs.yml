@@ -19,7 +19,9 @@ pages:
         
         
     - Django: 
-        - '创建Django项目': 'Create_project.md'
+        - '1. 创建Django项目': 'Create_project.md'
+        - '2. 创建视图': 'Create_project_views.md'
+        - '3. URL路由': 'Create_project_routing.md'
         - 'Templates': 'Templates.md'
         - 'Orm基础': 'Orm.md'
         - 'Orm增删改查': 'Orm_add_delete_update_search.md'

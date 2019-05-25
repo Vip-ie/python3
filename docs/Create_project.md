@@ -1,4 +1,3 @@
-# 创建项目
 **命令行创建Django项目方法**
 
 * 创建python虚拟环境：`mkvirtualenv DjangoProject`
