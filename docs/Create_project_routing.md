@@ -145,6 +145,7 @@ Kwargs为字典类型可以传递额外的参数到views中使用include的时�
 
 * 给一个匹配的url地址取名字
 * 一般用于模板,也可以使用reverse进行页面重定向
+
 ![Screenshot](img/url5.jpg)
 ![Screenshot](img/url6.jpg)
 ![Screenshot](img/url7.jpg)
